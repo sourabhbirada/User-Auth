@@ -1,0 +1,13 @@
+# Node.js modules
+node_modules/
+
+# Logs
+*.log
+
+
+
+# Environment files
+.env
+
+# Package lock files (optional)
+package-lock.json
