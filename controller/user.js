@@ -4,7 +4,7 @@ const { Createtoken } = require("../service/jwtauth");
 const verfytoken = require("../Middleware/googleverfy");
 const generateOTP = require("../service/generateOtp");
 const sendEmail = require("../service/emailsend");
-const saltRounds = process.env.SALT;
+const saltRounds = 10;
 
 
 
